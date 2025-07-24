@@ -1,0 +1,61 @@
+.success{
+    
+    
+    overflow-x: hidden;
+    max-width: 100%;
+    max-height: 100%;
+
+    .container{
+        position: relative;
+        height: 100vh;
+        background: url('../assets/Images/Success.png') center center / cover no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color:rgba(239, 73, 143, 0.14);
+        .hero{
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            z-index: 10;
+
+        }
+        .close-icon {
+            font-size: 1.5rem;
+            color: black;
+            cursor: pointer;
+            transition: 0.3s ease;
+            
+
+
+            &:hover {
+                background: rgba(0, 0, 0, 0.6);
+            }
+        }
+
+
+    }
+    .contain{
+        background-color: rgba(92, 99, 107, 0.08);
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 4rem;
+        h3{
+            color: rgba(26, 7, 16, 0.85);
+            font-size: 44px;
+            font-weight: 700;
+        }
+        button{
+            
+            width: 90%;
+            height: 40px;
+            background-color: rgba(89, 50, 234, 1);
+            color: white;
+            border: 1px solid rgba(89, 50, 234, 1);
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+    }
+
+    
+} 

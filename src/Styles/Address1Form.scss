@@ -1,0 +1,66 @@
+Form{
+    .form{
+        input{
+            padding-left: 10px;
+            height: 40px;
+        }
+        
+    } 
+    .you{
+        margin-top: -10px;
+        font-weight: 400;
+        font-size: 13px;
+        color: rgba(26, 7, 16, 0.65);
+    }
+    .buttons{
+        
+        display: flex;
+        gap: 4%;
+        
+        button{
+            background-color: transparent;
+            border: 1px solid rgba(239, 73, 143, 0.28);
+            border-radius: 20px;
+            height: 30px;
+            
+            color: rgba(89, 50, 234, 1);
+            font-weight:700;
+            font-size: 13px;
+        }
+    }
+    .info{
+        margin-top: 10rem;
+        font-weight:700;
+        font-size:20px;
+        color:rgba(27, 31, 59, 0.8);
+        .inner{
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 5%;
+            font-weight: 400;
+            font-size: 16px;
+            img{
+                max-width: 100%;
+                max-height: 100%;
+                width: 5%;
+                height: 8%;
+            }
+        }
+        button{
+            
+            width: 90%;
+            height: 40px;
+            background-color: rgba(89, 50, 234, 1);
+            color: white;
+            border: 1px solid rgba(89, 50, 234, 1);
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        
+
+    }
+    
+
+
+}

@@ -1,0 +1,44 @@
+.dashboard-content {
+  
+
+  
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+
+    .card {
+      background-color: #ffffff;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s;
+      margin-right: 7%;
+      display: flex;
+      gap: 3%;
+      img{
+        background-color: rgba(211, 255, 231, 1);
+        border-radius: 50%;
+        padding: 10px;
+      }
+
+      h4 {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(172, 172, 172, 1);
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #111;
+      }
+
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+  }
+}
