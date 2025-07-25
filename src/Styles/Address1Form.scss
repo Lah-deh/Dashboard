@@ -64,3 +64,43 @@ Form{
 
 
 }
+
+
+@media(min-width:768px){
+    Form{
+        .form{
+            input{
+                margin-left: 7%;
+                margin-right:7%;
+                width: 80%;
+            }
+        }
+        .you{
+            margin-left: 7%;
+            margin-right:7%;
+            width: 80%;
+        }
+        .buttons{
+            gap: 1%;
+            padding: 10px;
+            button{
+                margin-left: 7%;
+                margin-right:7%;
+                
+            }
+        }
+        .info{
+            margin-left: 7%;
+            margin-right:7%;
+            .inner{
+                gap: 2%;
+                img{
+                    max-width: 100%;
+                    max-height: 100%;
+                    width: 3%;
+                    height: 5%;
+                }
+            }
+        }
+    }
+}

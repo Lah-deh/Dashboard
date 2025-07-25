@@ -1,109 +1,154 @@
 .SideBar {
   background: #fff;
   height: 100vh;
-  transition: width 0.3s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
   overflow: hidden;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
-  padding: 0.5rem;
+  transition: all 0.3s ease;
+  padding: 1rem;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  width: 75%;
+  max-width: 250px;
+  transform: translateX(-100%);
+
+  &.open {
+    transform: translateX(0);
+
+    .title,
+    .nav li span,
+    .profile .info {
+      display: inline;
+    }
+  }
 
   &.collapsed {
     width: 80px;
+
+    .title,
+    .nav li span,
+    .profile .info {
+      display: none;
+    }
 
     .top,
     .nav li,
     .profile {
       justify-content: center;
     }
-
-    .top h3,
-    .nav li span,
-    .profile div {
-      display: none;
-    }
   }
 
-  &.open {
-    width: 45%;
-    padding: 0.5rem;
+  @media (min-width: 768px) {
+    transform: none;
+    position: relative;
+    width: 250px;
+
+    &.collapsed {
+      width: 80px;
+
+      .title,
+      .nav li span,
+      .profile .info {
+        display: none !important;
+      }
+
+      .top,
+      .nav li,
+      .profile {
+        justify-content: center;
+      }
+    }
+
+    &.open {
+      width: 250px;
+
+      .title,
+      .nav li span,
+      .profile .info {
+        display: inline !important;
+      }
+    }
   }
 
   .top {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 1rem;
     cursor: pointer;
 
-    .logo {
+    img {
       width: 30px;
     }
 
     h3 {
-      font-size: 18px;
-      font-weight: 600;
+      font-size: 1.2rem;
     }
   }
 
   .nav {
-    list-style: none;
     margin-top: 2rem;
+    list-style: none;
 
     li {
       display: flex;
       align-items: center;
-      gap: 12px;
-      color: rgba(145, 151, 179, 1);
-      padding: 0.8rem 1rem;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: background 0.3s;
+      gap: 1rem;
       margin-bottom: 1rem;
+      padding: 0.5rem;
+      border-radius: 8px;
+      cursor: pointer;
 
-      &:hover {
-        background-color: #f4f4f4;
+      &.active {
+        background: purple;
+        color: white;
       }
 
       img {
         width: 20px;
-        height: 20px;
       }
 
       span {
-        font-size: 14px;
-        font-weight: 500;
+        font-size: 0.9rem;
       }
-    }
-
-    .active {
-      background-color: purple;
-      color: white;
     }
   }
 
-  .bottom {
-    .profile {
-      display: flex;
-      align-items: center;
-      gap: 10px;
+  .profile {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 
-      img {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-      }
+    img {
+      width: 35px;
+      border-radius: 50%;
+    }
 
-      h4 {
-        margin: 0;
-        font-size: 14px;
-      }
-
+    .info {
       p {
         margin: 0;
-        font-size: 12px;
-        color: gray;
+        font-weight: 600;
+      }
+
+      small {
+        color: #888;
       }
     }
+  }
+}
+
+.hamburger {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 110;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  @media (min-width: 768px) {
+    display: none;
   }
 }

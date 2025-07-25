@@ -15,3 +15,11 @@
         font-weight: 700;
     }
 }
+
+@media(min-width:768px){
+    .navv{
+        margin-left: 13%;
+        margin-right: 13%;
+        gap: 10%;
+    }
+}

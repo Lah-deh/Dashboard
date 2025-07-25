@@ -7,12 +7,18 @@
 
     .container{
         position: relative;
+        max-width: 100%;
         height: 100vh;
-        background: url('../assets/Images/Success.png') center center / cover no-repeat;
         display: flex;
+        background-image: url('../assets/Images/Success.png');
+        background-size: contain;     
+        background-repeat: no-repeat;
+        background-position: center;
         flex-direction: column;
         justify-content: space-between;
         background-color:rgba(239, 73, 143, 0.14);
+        width: 100%;
+        padding: 20px;
         .hero{
             position: absolute;
             top: 1rem;
@@ -36,7 +42,7 @@
 
     }
     .contain{
-        background-color: rgba(92, 99, 107, 0.08);
+    
         padding-left: 7%;
         padding-right: 7%;
         padding-top: 4rem;
@@ -54,6 +60,7 @@
             border: 1px solid rgba(89, 50, 234, 1);
             border-radius: 10px;
             margin-top: 30px;
+            margin-bottom: 30px;
         }
     }
 

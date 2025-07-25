@@ -95,3 +95,62 @@ Form{
     
 
 }
+
+@media (min-width:768px){
+    Form{
+        .inputt{
+            input{
+                margin-left: 7%;
+                margin-right: 7%;
+                width: 80%;
+            }
+        }
+        .labels{
+            margin-left: 6%;
+            margin-right: 7%;
+        }
+        .visible{
+            margin-left: 7%;
+            margin-right: 7%;
+        }
+        .number{
+            margin-left: 7%;
+            margin-right: 7%;
+            width: 80%;
+            margin-top: 20px;
+        }
+        .date{
+            input{
+                margin-left: 8%;
+                margin-right: 7%;
+                width: 33rem;
+                max-width: 100%;
+            }
+            
+        }
+        .bat{
+            margin-left: 8%;
+            margin-right: 7%;
+        }
+        .buttonn{
+            margin-left: 7%;
+            margin-right: 7%;
+            width: 80%;
+        }
+        
+    }
+}
+
+@media (min-width:1024px){
+    Form{
+        .date{
+            input{
+                margin-left: 9%;
+                margin-right: 7%;
+                width: 43.5rem;
+                max-width: 100%;
+            }
+            
+        }
+    }
+}

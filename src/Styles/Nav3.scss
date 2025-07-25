@@ -1,10 +1,10 @@
 .navvv{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 10%;
+    gap: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
     margin-top: 7%;
-    
     p{
         color: rgba(107, 198, 45, 1);
         font-size: 16px;
@@ -13,5 +13,13 @@
     h2{
         font-size: 20px;
         font-weight: 700;
+    }
+}
+
+@media(min-width:768px){
+    .navvv{
+        margin-left: 13%;
+        margin-right: 13%;
+        gap: 10%;
     }
 }

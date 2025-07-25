@@ -92,7 +92,7 @@ const PersonalForm = () => {
                     />
                     <ErrorMessage name='Birthday' component='div' className='error'/>
                 </div>
-                <p>Let us know aboutyour birthday so as not to miss a gift</p>
+                <p className='bat'>Let us know aboutyour birthday so as not to miss a gift</p>
                 <button type="submit" className='buttonn'>Save Information</button>
             </Form>
         )}

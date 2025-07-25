@@ -65,7 +65,7 @@ const LoginForm = () => {
           <ErrorMessage name="password" component="div" className="error" />
         </div>
         
-        <button type="submit">Login to Dashboard</button>
+        <button type="submit" className='buttonn'>Login to Dashboard</button>
         <div className='contain'>
           <label>
             <Field type="checkbox" name="rememberMe" className='box' />
