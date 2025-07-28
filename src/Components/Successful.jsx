@@ -10,8 +10,10 @@ const Successful = () => {
 
   useEffect(() => {
     const fullData = JSON.parse(localStorage.getItem('fullData'));
-    if (fullData?.firstName) {
-      setUserName(fullData.firstName);
+    const fullName = fullData?.Fullname;
+    if (fullName) {
+      setUserName(fullName);
+      localStorage.setItem("username", fullName); 
     }
   }, []);
 

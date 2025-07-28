@@ -1,7 +1,5 @@
 .Footer{
-    // margin-left: 8%;
-    // margin-right: 8%;
-    margin-top: 20px;
+    margin-top: -20px;
     font-size: 13px;
     font-weight: 400;
     max-width: 100%;
@@ -36,15 +34,113 @@
         font-size: 13px;
         font-weight: 400;
         text-align: center;
+        margin-left: -6px;
     }
     h4{
         text-align: center;
         margin-left: 8%;
         margin-right: 8%;
         font-weight: 400;
-        font-size: 11px;
+        font-size: 13px;
         a{
             color: blue;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+@media (min-width:1024px){
+    .Footer{
+        margin-top: 50px;
+        .label{
+            gap: 0;
+            input{
+                width: 20px;
+                height: 20px;
+                .input{
+                    margin-top: 10px;            
+                }
+            }
+        }
+        p{
+            font-size: 24px;
+            margin-left: 10px;
+        }
+        
+        h4{
+            font-size: 25px;
+            margin-top: 50px;
+            margin-bottom: 5rem;
+            
+            a{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+
+@media (min-width:1440px){
+    .Footer{
+        margin-top: 50px;
+        .label{
+            gap: 0;
+            input{
+                width: 20px;
+                height: 20px;
+                .input{
+                    margin-top: 10px;            
+                }
+            }
+        }
+        p{
+            font-size: 24px;
+            margin-left: 10px;
+        }
+        
+        h4{
+            font-size: 25px;
+            margin-top: 50px;
+            margin-bottom: 5rem;
+            
+            a{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width:2560px){
+    .Footer{
+        margin-top: 100px;
+        .label{
+            gap: 0;
+            input{
+                width: 50px;
+                height: 50px;
+                .input{
+                    margin-top: 10px;            
+                }
+            }
+        }
+        p{
+            font-size: 55px;
+            margin-left: 10px;
+        }
+        
+        h4{
+            font-size: 45px;
+            margin-top: 50px;
+            margin-bottom: 5rem;
+            
+            a{
+                text-decoration: underline;
+            }
         }
     }
 }

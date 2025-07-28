@@ -11,7 +11,7 @@ const registerSchema = Yup.object().shape({
     .required('Password is required')
     .min(8, 'Password should be at least 8 characters')
     .matches(
-      /^(?=.*[A-Z])(?=.*[!@#$%^&*])/,
+      /^(?=.*[A-Z])(?=.*[!@#$%^&*-_=+(){};:'"?/])/,
       'Password must contain at least one special character and a capital letter'
     ),
 });
@@ -41,6 +41,7 @@ const RegisterForm = () => {
           <div className="input">
             <Field name="password" type="password" /><br />
           </div>
+          <p className='paa'>8+ character</p>
           <ErrorMessage name="password" component="div" className="error" />
 
           <button type="submit" className="buttonn">Create Account</button>

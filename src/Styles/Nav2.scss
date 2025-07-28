@@ -23,3 +23,49 @@
         gap: 10%;
     }
 }
+
+
+
+@media (min-width:1024px){
+    .navv{
+        h2{
+            font-size: 34px;
+        }
+        p{
+            font-size: 25px;
+        }
+        .close-icon{
+            font-size: 50px;
+        }
+    }
+}
+
+
+@media (min-width:1404px){
+    .navv{
+        h2{
+            font-size: 34px;
+        }
+        p{
+            font-size: 25px;
+        }
+        .close-icon{
+            font-size: 60px;
+        }
+    }
+}
+
+
+@media (min-width:2560px){
+    .navv{
+        h2{
+            font-size: 34px;
+        }
+        p{
+            font-size: 25px;
+        }
+        .close-icon{
+            font-size: 100px;
+        }
+    }
+}

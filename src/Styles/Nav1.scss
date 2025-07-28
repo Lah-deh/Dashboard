@@ -52,3 +52,41 @@
     margin-right: 13%;
   }
 }
+
+@media (min-width:1024px){
+  .nav-container{
+    .close-icon{
+      font-size: 50px;
+    }
+    .nav-tabs a{
+      font-size: 27px;
+    }
+  }
+}
+
+
+@media (min-width:1440px){
+  .nav-container{
+    .close-icon{
+      font-size: 60px;
+    }
+    .nav-tabs a{
+      font-size: 34px;
+    }
+  }
+}
+
+@media (min-width:2560px){
+  .nav-container{
+    .close-icon{
+      font-size: 100px;
+    }
+    .nav-tabs a{
+      font-size: 50px;
+      gap: 40%;
+    }
+    .nav-tabs{
+      gap: 10rem;
+    }
+  }
+}

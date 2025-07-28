@@ -27,3 +27,65 @@ Form{
         margin-top: 30px;
     }
 }
+
+
+
+@media (min-width:768px){
+    Form{
+        input{
+            height: 50px;
+        }
+        .statee{
+            input{
+                margin-left: 27%;
+            }
+        }
+        button{
+            height: 50px;
+            border-radius: 20px;
+            margin-left: 7%;
+            margin-right:7%;
+            width: 80%;
+        }
+    }
+}
+
+
+@media(min-width:1024px){
+    Form{
+        input{
+            height: 70px;
+            font-size: 20px;
+            border-radius: 20px;
+        }
+        .statee{
+            input{
+                margin-left: 25%;
+            }
+        }
+        button{
+            height: 70px;
+            font-size: 35px;
+            border-radius: 30px;
+
+        }
+    }
+}
+
+
+@media(min-width:1440px){
+    Form{
+        input{
+            height:90px;
+        }
+        .statee{
+            input{
+                margin-left:31%;
+            }
+        }
+        button{
+            height: 90px;
+            font-size: 38px;
+        }
+    }
+}

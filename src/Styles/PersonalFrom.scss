@@ -96,6 +96,31 @@ Form{
 
 }
 
+
+
+@media(min-width:375px){
+    Form{
+        .date{
+        input{
+            width: 20rem;
+            
+        }
+    }
+    }
+}
+
+
+@media(min-width:425px){
+    Form{
+        .date{
+        input{
+            width: 23rem;
+            
+        }
+    }
+    }
+}
+
 @media (min-width:768px){
     Form{
         .inputt{
@@ -103,6 +128,8 @@ Form{
                 margin-left: 7%;
                 margin-right: 7%;
                 width: 80%;
+                height: 50px;
+
             }
         }
         .labels{
@@ -112,12 +139,22 @@ Form{
         .visible{
             margin-left: 7%;
             margin-right: 7%;
+            p{
+                margin-left: -8px;
+            }
         }
         .number{
             margin-left: 7%;
             margin-right: 7%;
             width: 80%;
             margin-top: 20px;
+            .react-tel-input{
+                height: 50px;
+                
+                .form-control{
+                    height: 50px;
+                }
+            }
         }
         .date{
             input{
@@ -125,6 +162,7 @@ Form{
                 margin-right: 7%;
                 width: 33rem;
                 max-width: 100%;
+                height: 50px;
             }
             
         }
@@ -143,14 +181,100 @@ Form{
 
 @media (min-width:1024px){
     Form{
+        .inputt{
+            input{
+                height: 70px;
+                font-size: 18px;
+            }
+        }
+        .labels{
+            .hi{
+                font-size: 26px;
+            }
+            .labelin{
+                font-size: 24px;
+                input{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+            
+        }
+        .visible{
+            margin-top: 20px;
+            p{
+                font-size: 20px;
+            }
+        }
+        .number{
+            .react-tel-input{
+                height: 70px;
+                
+                .form-control{
+                    height: 70px;
+                    font-size: 25px;
+                }
+            }
+        }
         .date{
             input{
                 margin-left: 9%;
                 margin-right: 7%;
-                width: 43.5rem;
+                width: 43.7rem;
                 max-width: 100%;
+                height: 70px;
+                font-size: 25px;
             }
             
+        }
+        .bat{
+            font-size: 20px;
+        }
+        .buttonn{
+            height: 70px;
+            font-size: 30px;
+            margin-top: 40px;
+        }
+    }
+}
+
+
+@media(min-width:1440px){
+    Form{
+        .inputt{
+            input{
+                height: 90px;
+                font-size: 22px;
+            }
+        }
+        .number{
+            .react-tel-input{
+                height: 90px;
+                
+                .form-control{
+                    height: 90px;
+                    font-size: 30px;
+                }
+            }
+        }
+        .date{
+            input{
+                margin-left: 8.5%;
+                margin-right: 7%;
+                width: 62.1rem;
+                max-width: 100%;
+                height: 90px;
+                font-size: 30px;
+            }
+            
+        }
+        .bat{
+            margin-top: 20px;
+        }
+        .buttonn{
+            height: 90px;
+            font-size: 35px;
+            margin-top: 40px;
         }
     }
 }

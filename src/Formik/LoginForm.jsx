@@ -31,6 +31,8 @@ const LoginForm = () => {
           values.email === fullData.email &&
           values.password === fullData.password
         ) {
+          localStorage.setItem('username', fullData.Fullname);
+
           if (values.rememberMe) {
             localStorage.setItem(
               'rememberedCredentials',

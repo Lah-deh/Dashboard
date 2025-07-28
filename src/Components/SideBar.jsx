@@ -70,7 +70,7 @@ const SideBar = () => {
         <div className="profile">
           <img src={profile} alt="Profile" />
           <div className="info">
-            <p>Evano</p>
+            <p>{localStorage.getItem('username') || 'User'}</p>
             <small>Project Manager</small>
           </div>
         </div>

@@ -51,7 +51,7 @@ const PersonalForm = () => {
                 <ErrorMessage name='Fullname' component='div' className='error'/>
 
                 <div className='labels'>
-                    <label htmlFor='gender'>Gender:</label>
+                    <label htmlFor='gender' className='hi'>Gender:</label>
                     <label className='labelin'>
                         <Field type="radio" name="gender" value="Male" />
                         <span>Male</span>
