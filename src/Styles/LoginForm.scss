@@ -21,12 +21,16 @@
   }
 }
 
+
+
+
 @media (min-width:768px){
   Form{
     input{
       margin-left: 7%;
       margin-right: 7%;
       width: 80%;
+      height: 50px;
     }
     .box{
       gap: 0;
@@ -34,7 +38,88 @@
       
     }
     .contain{
-      font-size:30px;
+      margin-top: 30px;
+      margin-left: -7%;
+      label{
+        p{
+          font-size: 15px;
+          margin-left: -7%;
+        }
+        
+      }
+        
+      
+      
+    }
+    .buttonn{
+      margin-left: 7%;
+      margin-right: 7%;
+      width: 70%;
+      height: 50px;
     }
   }
 }
+
+
+
+@media (min-width:1024px){
+  Form{
+    input{
+      height: 70px;
+      border-radius:20px;
+
+    }
+    .buttonn{
+      height: 70px;
+      border-radius: 20px;
+    }
+  }
+}
+
+
+@media (min-width:1440px){
+  Form{
+    input{
+      height: 80px;
+      border-radius:30px;
+
+    }
+    .contain{
+      label{
+        p{
+          font-size: 18px;
+        }
+      }
+    }
+    .buttonn{
+      height: 80px;
+      border-radius: 30px;
+    }
+  }
+}
+
+
+@media (min-width:1440px){
+  Form{
+    input{
+      height: 150px;
+      border-radius:50px;
+      font-size: 60px;
+
+    }
+    .contain{
+      label{
+        p{
+          font-size: 30px;
+        }
+      }
+    }
+    .buttonn{
+      height: 150px;
+      border-radius: 50px;
+      font-size: 60px;
+    }
+  }
+}
+
+

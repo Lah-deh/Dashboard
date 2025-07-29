@@ -66,3 +66,36 @@
 
     
 } 
+
+
+
+@media (min-width:768px){
+    .success{
+        .contain{
+            button{
+                height: 50px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+@media (min-width:1024px){
+    .success{
+        .contain{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            button{
+                height: 70px;
+                font-size: 25px;
+                width: 40%;
+                border-radius: 30px;
+                
+                
+            }
+        }
+    }
+}

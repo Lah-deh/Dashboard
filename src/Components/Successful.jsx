@@ -14,6 +14,7 @@ const Successful = () => {
     if (fullName) {
       setUserName(fullName);
       localStorage.setItem("username", fullName); 
+      
     }
   }, []);
 
@@ -26,7 +27,9 @@ const Successful = () => {
       </div>
       <div className='contain'>
         <h3>You are successfully registered{userName ? `, ${userName}` : ''}!</h3>
-        <button onClick={() => navigate('/Login')}>Go to Login</button>
+        <button onClick={() => navigate('/Login')
+          
+        }>Go to Login</button>
       </div>
     </div>
   );

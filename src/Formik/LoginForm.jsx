@@ -71,7 +71,7 @@ const LoginForm = () => {
         <div className='contain'>
           <label>
             <Field type="checkbox" name="rememberMe" className='box' />
-            Remember Me
+            <p>Remember Me</p>
           </label>
         </div>
       </Form>
