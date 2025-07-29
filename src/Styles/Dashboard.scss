@@ -4,19 +4,13 @@
   width: 100%;
 }
 
-// .SideBar {
-//   width: 250px; // or whatever width you want
-//   height: 100vh;
-//   background-color: #fff;
-//   position: relative;
-//   flex-shrink: 0;
-// }
+
 
 .main-content {
   flex: 1;
   display: flex;
   flex-direction: column;
-  background-color: #f8f9fa; // optional
+  background-color: #f8f9fa; 
   overflow-y: auto;
   padding: 1rem;
   
