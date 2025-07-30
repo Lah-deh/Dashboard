@@ -8,7 +8,7 @@ const LoginForm = () => {
   const navigate = useNavigate();
 
   const loginSchema = Yup.object().shape({
-    email: Yup.string().email('Invalid email').required('Email is rwequired'),
+    email: Yup.string().email('Invalid email').required('Email is required'),
     password: Yup.string().required(' Password is required'),
     rememberMe: Yup.boolean(),
   });
