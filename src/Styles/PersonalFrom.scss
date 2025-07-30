@@ -3,7 +3,8 @@
     font-size: small;
     text-align: center;
 }
-Form{
+.pers{
+    
     margin-left: 7%;
     margin-right: 7%;
     margin-top: 30px;
@@ -91,6 +92,9 @@ Form{
         color: rgba(26, 7, 16, 0.65);
 
     }
+    .buttonn{
+        margin-bottom: 10rem;
+    }
 
     
 
@@ -99,7 +103,7 @@ Form{
 
 
 @media(min-width:375px){
-    Form{
+    .pers{
         .date{
         input{
             width: 20rem;
@@ -111,7 +115,7 @@ Form{
 
 
 @media(min-width:425px){
-    Form{
+    .pers{
         .date{
         input{
             width: 23rem;
@@ -122,7 +126,7 @@ Form{
 }
 
 @media (min-width:768px){
-    Form{
+    .pers{
         .inputt{
             input{
                 margin-left: 7%;
@@ -180,7 +184,7 @@ Form{
 }
 
 @media (min-width:1024px){
-    Form{
+    .pers{
         .inputt{
             input{
                 height: 70px;
@@ -240,7 +244,7 @@ Form{
 
 
 @media(min-width:1440px){
-    Form{
+    .pers{
         .inputt{
             input{
                 height: 90px;
@@ -254,14 +258,15 @@ Form{
                 .form-control{
                     height: 90px;
                     font-size: 30px;
+                    border-radius: 50px;
                 }
             }
         }
         .date{
             input{
                 margin-left: 8.5%;
-                margin-right: 7%;
-                width: 62.1rem;
+                margin-right: 7.5%;
+                width: 73.1rem;
                 max-width: 100%;
                 height: 90px;
                 font-size: 30px;

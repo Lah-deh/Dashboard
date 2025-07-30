@@ -70,13 +70,13 @@ const data = [
 
 const Customers = () => {
   return (
-    <div className="customers-wrapper">
-      <div className="customers-header">
+    <div className="main">
+      <div className="container">
         <div>
           <h2>All Customers</h2>
-          <p className="active-members">Active Members</p>
+          <p className="active">Active Members</p>
         </div>
-        <div className="customers-actions">
+        <div className="actions">
           <input type="text" placeholder=" Search" />
           <select className='hideee'>
             <option>Newest</option>
@@ -85,7 +85,7 @@ const Customers = () => {
         </div>
       </div>
 
-      <div className="table-container">
+      <div className="table">
         <table className="customers-table">
           <thead>
             <tr>

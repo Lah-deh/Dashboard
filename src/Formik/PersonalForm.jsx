@@ -44,7 +44,7 @@ const PersonalForm = () => {
     }}
     >
         {({handleSubmit,setFieldValue,values})=>(
-            <Form onSubmit={handleSubmit}>
+            <Form onSubmit={handleSubmit} className='pers'>
                 <div className='inputt'>
                     <Field name = 'Fullname' type ="text" placeholder= 'Full name'/>
                 </div>

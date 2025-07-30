@@ -51,12 +51,12 @@
       
       
     }
-    .buttonn{
-      margin-left: 7%;
-      margin-right: 7%;
-      width: 70%;
-      height: 50px;
-    }
+    // .buttonn{
+    //   margin-left: 7%;
+    //   margin-right: 7%;
+    //   width: 70%;
+    //   height: 50px;
+    // }
   }
 }
 
@@ -69,10 +69,10 @@
       border-radius:20px;
 
     }
-    .buttonn{
-      height: 70px;
-      border-radius: 20px;
-    }
+    // .buttonn{
+    //   height: 70px;
+    //   border-radius: 20px;
+    // }
   }
 }
 
@@ -80,8 +80,11 @@
 @media (min-width:1440px){
   Form{
     input{
-      height: 80px;
+      margin-top: 10px;
+      height: 90px;
       border-radius:30px;
+      padding-left: 20px;
+      font-size:30px ;
 
     }
     .contain{
@@ -91,20 +94,20 @@
         }
       }
     }
-    .buttonn{
-      height: 80px;
-      border-radius: 30px;
-    }
+    // .buttonn{
+    //   height: 80px;
+    //   border-radius: 30px;
+    // }
   }
 }
 
 
-@media (min-width:1440px){
+@media (min-width:2560px){
   Form{
     input{
       height: 150px;
       border-radius:50px;
-      font-size: 60px;
+      font-size: 40px;
 
     }
     .contain{
@@ -114,11 +117,11 @@
         }
       }
     }
-    .buttonn{
-      height: 150px;
-      border-radius: 50px;
-      font-size: 60px;
-    }
+    // .buttonn{
+    //   height: 150px;
+    //   border-radius: 50px;
+    //   font-size: 60px;
+    // }
   }
 }
 

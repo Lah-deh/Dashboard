@@ -1,4 +1,4 @@
-Form{
+.for{
     margin-left: 7%;
     margin-right: 7%;
     input{
@@ -25,13 +25,14 @@ Form{
         border: 1px solid rgba(89, 50, 234, 1);
         border-radius: 10px;
         margin-top: 30px;
+        margin-bottom: 10rem;
     }
 }
 
 
 
 @media (min-width:768px){
-    Form{
+    .for{
         input{
             height: 50px;
         }
@@ -52,7 +53,7 @@ Form{
 
 
 @media(min-width:1024px){
-    Form{
+    .for{
         input{
             height: 70px;
             font-size: 20px;
@@ -74,10 +75,11 @@ Form{
 
 
 @media(min-width:1440px){
-    Form{
+    .for{
         input{
-            height:90px;
+            height: 90px;
         }
+        
         .statee{
             input{
                 margin-left:31%;

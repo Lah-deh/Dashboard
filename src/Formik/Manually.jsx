@@ -39,7 +39,7 @@ const Manually = () => {
 
        }}
     >
-        <Form>
+        <Form className='for'>
             <div>
                 <Field name="street" placeholder="Street address" />
                 <ErrorMessage name="street" component="div" className="error" />
