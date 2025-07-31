@@ -30,7 +30,7 @@ const RegisterForm = () => {
       }}
     >
       {({ handleSubmit }) => (
-        <Form onSubmit={handleSubmit}>
+        <Form onSubmit={handleSubmit} className='reform'>
           <label htmlFor="email">Email address</label><br /><br />
           <div className="input">
             <Field name="email" type="email" /><br />

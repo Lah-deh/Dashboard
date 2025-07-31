@@ -7,13 +7,13 @@ Form{
         
     } 
     .you{
-        margin-top: -10px;
+        margin-top: 5px;
         font-weight: 400;
         font-size: 13px;
         color: rgba(26, 7, 16, 0.65);
     }
     .buttons{
-        
+        margin-top: 15px;
         display: flex;
         gap: 4%;
         
@@ -22,10 +22,11 @@ Form{
             border: 1px solid rgba(239, 73, 143, 0.28);
             border-radius: 20px;
             height: 30px;
-            
+            cursor: pointer;
             color: rgba(89, 50, 234, 1);
             font-weight:700;
             font-size: 13px;
+            padding: 1px 10px 1px 10px;
         }
     }
     .info{
@@ -57,6 +58,16 @@ Form{
             border-radius: 10px;
             margin-top: 30px;
             margin-bottom: 10rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            transform: 0.2s ease;
+            &:hover{
+                background-color: darkviolet;
+                transform: scale(1);
+            }
+            &:active{
+                transform: scale(0.93);
+            }
         }
         
 
