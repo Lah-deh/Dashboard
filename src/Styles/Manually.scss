@@ -26,6 +26,16 @@
         border-radius: 10px;
         margin-top: 30px;
         margin-bottom: 10rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        transform: 0.2s ease;
+        &:hover{
+            background-color: darkviolet;
+            transform: scale(1);
+        }
+        &:active{
+            transform: scale(0.93);
+        }
     }
 }
 
@@ -88,6 +98,29 @@
         button{
             height: 90px;
             font-size: 38px;
+        }
+    }
+}
+
+
+@media(min-width:2560px){
+    .for{
+        input{
+            height: 150px;
+            border-radius: 40px;
+            padding-left: 20px;
+            font-size: 40px;
+        }
+        
+        .statee{
+            input{
+                margin-left:31%;
+            }
+        }
+        button{
+            height: 150px;
+            font-size: 45px;
+            border-radius: 50px;
         }
     }
 }

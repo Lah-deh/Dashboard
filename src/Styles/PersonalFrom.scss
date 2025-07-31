@@ -276,7 +276,7 @@
             input{
                 margin-left: 8.5%;
                 margin-right: 7.5%;
-                width: 73.1rem;
+                width: 63.1rem;
                 max-width: 100%;
                 height: 90px;
                 font-size: 30px;
@@ -290,6 +290,67 @@
             height: 90px;
             font-size: 35px;
             margin-top: 40px;
+        }
+    }
+}
+
+
+@media(min-width:2560px){
+    .pers{
+        .inputt{
+            input{
+                height: 150px;
+                font-size: 45px;
+            }
+        }
+        .labels{
+            .hi{
+                font-size: 45px;
+            }
+            .labelin{
+                font-size: 45px;
+                input{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+        .visible{
+            p{
+                font-size: 40px;
+            }
+        }
+        .number{
+            .react-tel-input{
+                height: 150px;
+                
+                
+                .form-control{
+                    height: 150px;
+                    font-size: 45px;
+                    border-radius: 50px;
+                }
+            }
+        }
+        .date{
+            input{
+                margin-left: 8.5%;
+                margin-right: 7.3%;
+                width: 110.1rem;
+                max-width: 100%;
+                height: 150px;
+                font-size: 45px;
+            }
+            
+        }
+        .bat{
+            margin-top: 20px;
+            font-size: 40px;
+        }
+        .buttonn{
+            height: 150px;
+            font-size: 45px;
+            margin-top: 50px;
         }
     }
 }

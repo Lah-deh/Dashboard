@@ -20,7 +20,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 
 
 const personalSchema = Yup.object().shape({
-    Fullname: Yup.string().required('FullName is required'),
+    Fullname: Yup.string().required('Fullname is required'),
     gender: Yup.string().required("Gender is required").oneOf(['Male','Female'], 'selct male or female'),
     PhoneNumber: Yup.string().required('Phone number is required').matches(/^[0-9]{10,}$/, 'Phone number must be at least 10 digits'),
     Birthday: Yup.date().nullable().typeError('Invalid date'),
@@ -46,7 +46,7 @@ const PersonalForm = () => {
         {({handleSubmit,setFieldValue,values})=>(
             <Form onSubmit={handleSubmit} className='pers'>
                 <div className='inputt'>
-                    <Field name = 'Fullname' type ="text" placeholder= 'Full name'/>
+                    <Field name = 'Fullname' type ="text" placeholder= 'Fullname'/>
                 </div>
                 <ErrorMessage name='Fullname' component='div' className='error'/>
 
